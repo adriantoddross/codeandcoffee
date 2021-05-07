@@ -11,6 +11,8 @@ function removeDuplicates(str) {
   - Use an array method to .reduce a string down to unique chars
   - Map all letters and counts to an object, then return all object keys
  */
+
+  return false;
 }
 
 // make this true
