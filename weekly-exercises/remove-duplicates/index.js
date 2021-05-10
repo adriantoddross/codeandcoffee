@@ -12,8 +12,12 @@ function removeDuplicates(str) {
   - Map all letters and counts to an object, then return all object keys
  */
 
-  return false;
+  /*
+  A Set implicity removes duplicates
+  Convert str params to set inside an Array, then .join to return a string.
+  */
+  return [...new Set(str)].join("");
 }
 
 // make this true
-console.log(removeDuplicates("mississippi") === "misp");
+console.log(removeDuplicates("mississippi"), removeDuplicates("mississippi") === "misp");
